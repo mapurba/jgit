@@ -5,7 +5,7 @@
     "id" : "mf",
     "noOfStages" : 2,
     "stages" : [ {
-      "stageName" : "Development",
+      "stageName" : "Developaaament",
       "description" : null,
       "idVaults" : [ {
         "identityVaultId" : "Idv1",
