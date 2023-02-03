@@ -1,0 +1,131 @@
+{
+  "environment" : [ {
+    "name" : "MF",
+    "description" : null,
+    "id" : "mf",
+    "noOfStages" : 2,
+    "stages" : [ {
+      "stageName" : "Development",
+      "description" : null,
+      "idVaults" : [ {
+        "identityVaultId" : "Idv1",
+        "identityVaultName" : "Idv1",
+        "identityVaultHost" : "10.71.23.45",
+        "identityVaultPort" : "",
+        "isSecured" : "true",
+        "identityVaultUserId" : "cn=o",
+        "identityVaultPassword" : "",
+        "driverSets" : [ {
+          "driverSetId" : "DS1",
+          "driverSetName" : "DS1",
+          "serverDomainName" : "cn=admin,ou=sa",
+          "drivers" : [ {
+            "driverId" : "Informix",
+            "driverName" : "Informix"
+          }, {
+            "driverId" : "DB2",
+            "driverName" : "DB2"
+          }, {
+            "driverId" : "MySQL",
+            "driverName" : "MySQL"
+          }, {
+            "driverId" : "Top Secret",
+            "driverName" : "Top Secret"
+          }, {
+            "driverId" : "JMS Driver",
+            "driverName" : "JMS Driver"
+          }, {
+            "driverId" : "Linux",
+            "driverName" : "Linux"
+          }, {
+            "driverId" : "Rest Driver",
+            "driverName" : "Rest Driver"
+          }, {
+            "driverId" : "UserApplication",
+            "driverName" : "UserApplication"
+          }, {
+            "driverId" : "Redhat Linux",
+            "driverName" : "Redhat Linux"
+          }, {
+            "driverId" : "ACF",
+            "driverName" : "ACF"
+          }, {
+            "driverId" : "Sybase",
+            "driverName" : "Sybase"
+          }, {
+            "driverId" : "Access",
+            "driverName" : "Access"
+          }, {
+            "driverId" : "RoleBased Entitlements Service",
+            "driverName" : "RoleBased Entitlements Service"
+          }, {
+            "driverId" : "Entity Data Model",
+            "driverName" : "Entity Data Model"
+          }, {
+            "driverId" : "Data Collection Service Driver",
+            "driverName" : "Data Collection Service Driver"
+          }, {
+            "driverId" : "IDProvider",
+            "driverName" : "IDProvider"
+          } ]
+        }, {
+          "driverSetId" : "DS2",
+          "driverSetName" : "DS2",
+          "serverDomainName" : "cn=admin,ou=sa",
+          "drivers" : [ ]
+        } ]
+      }, {
+        "identityVaultId" : "Idv2",
+        "identityVaultName" : "Idv2",
+        "identityVaultHost" : "10.71.23.45",
+        "identityVaultPort" : "",
+        "isSecured" : "true",
+        "identityVaultUserId" : "cn=o",
+        "identityVaultPassword" : "",
+        "driverSets" : [ {
+          "driverSetId" : "DS4",
+          "driverSetName" : "DS4",
+          "serverDomainName" : "cn=admin,ou=sa",
+          "drivers" : [ ]
+        } ]
+      } ],
+      "stageId" : "s1"
+    }, {
+      "stageName" : "Pre-Prod",
+      "description" : null,
+      "idVaults" : [ {
+        "identityVaultId" : "1",
+        "identityVaultName" : "Idv1",
+        "identityVaultHost" : "10.71.23.45",
+        "identityVaultPort" : "",
+        "isSecured" : "true",
+        "identityVaultUserId" : "cn=o",
+        "identityVaultPassword" : "",
+        "driverSets" : [ {
+          "driverSetId" : "DS1",
+          "driverSetName" : "DS1",
+          "serverDomainName" : "cn=admin,ou=sa",
+          "drivers" : [ {
+            "driverId" : "DB2",
+            "driverName" : "DB2"
+          }, {
+            "driverId" : "Informix",
+            "driverName" : "Informix"
+          } ]
+        } ]
+      } ],
+      "stageId" : "s2"
+    } ]
+  }, {
+    "name" : "MF2",
+    "description" : null,
+    "id" : "mf2",
+    "noOfStages" : 1,
+    "stages" : [ {
+      "stageName" : "d3",
+      "description" : null,
+      "idVaults" : [ ],
+      "stageId" : "d3"
+    } ]
+  } ]
+}
