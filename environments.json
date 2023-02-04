@@ -91,7 +91,7 @@
       } ],
       "stageId" : "s1"
     }, {
-      "stageName" : "Pre-Prod",
+      "stageName" : "Pree-Prod",
       "description" : null,
       "idVaults" : [ {
         "identityVaultId" : "1",
