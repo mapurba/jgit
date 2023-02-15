@@ -1,37 +1,191 @@
 {
   "environment" : [ {
-    "name" : "Google cloud",
-    "description" : "Google cloud",
-    "id" : "gcp",
-    "noOfStages" : 1,
+    "name" : "MF",
+    "description" : null,
+    "id" : "mf",
+    "noOfStages" : 2,
     "stages" : [ {
-      "stageName" : "gcp-dev",
-      "description" : "gcp-dev",
+      "stageName" : "Development",
+      "description" : null,
       "idVaults" : [ {
-        "identityVaultId" : "mapurba",
-        "identityVaultName" : "mapurba",
-        "identityVaultHost" : "10.71.129.216",
-        "identityVaultPort" : "636",
-        "isSecured" : "true",
-        "identityVaultUserId" : "cn=admin,ou=sa,o=system",
-        "identityVaultPassword" : "[AES/GCM/NoPadding]PzEnS+14jLoWRYeo:OzEvtPTkuqmsTRKSgZ/uEaF+1oAncNj42IktSit1pGVFPZU7R75vssd3EowXtmVA0oRdRThrufly+AUvu25KiLP4XyikAcJ6oK2y4CSEy5nfMK8JYEBRAaFZMi6wROmOtdfHXaX5mKF6XsKE5u80tBqW8XBX5Ijau+TY4tJ7ZqMVzr/wNeqMC9hv3VEzlxqI8BlqRGGWC8wxuCFaWlv/MvzBcUM=",
+        "identityVaultId" : "Idv1",
+        "identityVaultName" : "Idv1",
+        "identityVaultHost" : "10.71.23.45",
+        "identityVaultPort" : "",
+        "isSecured" : true,
+        "identityVaultUserId" : "cn=o",
+        "identityVaultPassword" : "",
         "driverSets" : [ {
-          "driverSetId" : "driversernew",
-          "driverSetName" : "driversetnew",
-          "serverDomainName" : "cn=mapurba,ou=servers,o=system",
+          "driverSetId" : "DS1",
+          "driverSetName" : "DS1",
+          "serverDomainName" : "cn=admin,ou=sa",
+          "deployContext" : null,
           "drivers" : [ {
-            "driverId" : "Delimited Text Driver",
-            "driverName" : "Delimited Text Driver"
+            "driverId" : "Informix",
+            "driverName" : "Informix"
+          }, {
+            "driverId" : "DB2",
+            "driverName" : "DB2"
+          }, {
+            "driverId" : "MySQL",
+            "driverName" : "MySQL"
+          }, {
+            "driverId" : "JMS Driver",
+            "driverName" : "JMS Driver"
+          }, {
+            "driverId" : "Linux",
+            "driverName" : "Linux"
+          }, {
+            "driverId" : "UserApplication",
+            "driverName" : "UserApplication"
+          }, {
+            "driverId" : "Redhat Linux",
+            "driverName" : "Redhat Linux"
+          }, {
+            "driverId" : "ACF",
+            "driverName" : "ACF"
+          }, {
+            "driverId" : "Access",
+            "driverName" : "Access"
+          }, {
+            "driverId" : "RoleBased Entitlements Service",
+            "driverName" : "RoleBased Entitlements Service"
+          }, {
+            "driverId" : "Entity Data Model",
+            "driverName" : "Entity Data Model"
+          }, {
+            "driverId" : "Data Collection Service Driver",
+            "driverName" : "Data Collection Service Driver"
+          }, {
+            "driverId" : "IDProvider",
+            "driverName" : "IDProvider"
+          }, {
+            "driverId" : "Generic Null",
+            "driverName" : "Generic Null"
+          } ]
+        }, {
+          "driverSetId" : "DS2",
+          "driverSetName" : "DS2",
+          "serverDomainName" : "cn=admin,ou=sa",
+          "deployContext" : null,
+          "drivers" : [ ]
+        } ]
+      }, {
+        "identityVaultId" : "Idv2",
+        "identityVaultName" : "Idv2",
+        "identityVaultHost" : "10.71.23.45",
+        "identityVaultPort" : "",
+        "isSecured" : true,
+        "identityVaultUserId" : "cn=o",
+        "identityVaultPassword" : "",
+        "driverSets" : [ {
+          "driverSetId" : "DS4",
+          "driverSetName" : "DS4",
+          "serverDomainName" : "cn=admin,ou=sa",
+          "deployContext" : null,
+          "drivers" : [ ]
+        } ]
+      } ],
+      "stageId" : "s1"
+    }, {
+      "stageName" : "Pre-Prod",
+      "description" : null,
+      "idVaults" : [ {
+        "identityVaultId" : "1",
+        "identityVaultName" : "Idv1",
+        "identityVaultHost" : "10.71.23.45",
+        "identityVaultPort" : "",
+        "isSecured" : true,
+        "identityVaultUserId" : "cn=o",
+        "identityVaultPassword" : "",
+        "driverSets" : [ {
+          "driverSetId" : "DS1",
+          "driverSetName" : "DS1",
+          "serverDomainName" : "cn=admin,ou=sa",
+          "deployContext" : null,
+          "drivers" : [ {
+            "driverId" : "DB2",
+            "driverName" : "DB2"
+          }, {
+            "driverId" : "Informix",
+            "driverName" : null
+          }, {
+            "driverId" : "Informix2",
+            "driverName" : "Informix2"
           } ]
         } ]
       } ],
-      "stageId" : "gcpdev"
+      "stageId" : "s2"
     } ]
   }, {
-    "name" : "newstage",
+    "name" : "MF2",
     "description" : null,
-    "id" : "newstage",
-    "noOfStages" : 0,
-    "stages" : [ ]
+    "id" : "mf2",
+    "noOfStages" : 1,
+    "stages" : [ {
+      "stageName" : "d3",
+      "description" : null,
+      "idVaults" : [ {
+        "identityVaultId" : "Idv1",
+        "identityVaultName" : "Idv1",
+        "identityVaultHost" : "10.71.23.45",
+        "identityVaultPort" : "",
+        "isSecured" : true,
+        "identityVaultUserId" : "cn=o",
+        "identityVaultPassword" : "",
+        "driverSets" : [ {
+          "driverSetId" : "DS1",
+          "driverSetName" : "DS1",
+          "serverDomainName" : "cn=admin,ou=sa",
+          "deployContext" : null,
+          "drivers" : [ {
+            "driverId" : "Informix",
+            "driverName" : "Informix"
+          } ]
+        } ]
+      } ],
+      "stageId" : "d3"
+    } ]
+  }, {
+    "name" : "Name",
+    "description" : null,
+    "id" : "Name",
+    "noOfStages" : 1,
+    "stages" : [ {
+      "stageName" : "k2",
+      "description" : null,
+      "idVaults" : [ {
+        "identityVaultId" : "as",
+        "identityVaultName" : "a",
+        "identityVaultHost" : "10.71.23.45",
+        "identityVaultPort" : "8080",
+        "isSecured" : true,
+        "identityVaultUserId" : "cn=o",
+        "identityVaultPassword" : "[AES/GCM/NoPadding]Mat6x4LsO1wwlNHv:9/BGlhV7MpL3605w3UdnZFEtzsE=",
+        "driverSets" : [ ]
+      } ],
+      "stageId" : "k2"
+    } ]
+  }, {
+    "name" : "WQ",
+    "description" : "QD",
+    "id" : "W",
+    "noOfStages" : 3,
+    "stages" : [ {
+      "stageName" : "2",
+      "description" : "2",
+      "idVaults" : [ ],
+      "stageId" : "2"
+    }, {
+      "stageName" : "1",
+      "description" : null,
+      "idVaults" : [ ],
+      "stageId" : "1"
+    }, {
+      "stageName" : "3",
+      "description" : null,
+      "idVaults" : [ ],
+      "stageId" : "3"
+    } ]
   } ]
 }

@@ -1,0 +1,26 @@
+{
+  "driverRecipeId" : "Generic Null",
+  "driverRecipeName" : "Generic Null",
+  "driverBasePackage" : {
+    "packageId" : "RTSIDLD6_201006101618560390",
+    "packageName" : "Null Service Base",
+    "packageVersion" : "1.0.0",
+    "packageShortName" : "NOVLNULLBASE",
+    "driverInputPrompts" : [ {
+      "key" : "name",
+      "name" : "Driver Name",
+      "value" : "Generic Null",
+      "prompt" : "NOVLNULLBASE-DriverNamePrompt",
+      "type" : "string"
+    } ],
+    "driverInputPromptsXML" : [ {
+      "dsObjectName" : "NOVLNULLBASE-DriverNamePrompt",
+      "confValues" : "PGNvbmZpZ3VyYXRpb24tdmFsdWVzPjxkZWZpbml0aW9ucz48aGVhZGVyIGRpc3BsYXktbmFtZT0ieGxmaWQoTk9WTE5VTExCQVNFLmlkbXJlc291cmNlLk5PVkxOVUxMQkFTRURyaXZlck5hbWVQcm9tcHQuZ2N2LmhlYWRlci5Ecml2ZXJJbmZvcm1hdGlvbilEcml2ZXIgSW5mb3JtYXRpb24iIGRyaXZlci1uYW1lPSJ0cnVlIiBpZD0iNDMxIi8+PGRlZmluaXRpb24gZGlzcGxheS1uYW1lPSJ4bGZpZChOT1ZMTlVMTEJBU0UuaWRtcmVzb3VyY2UuTk9WTE5VTExCQVNFRHJpdmVyTmFtZVByb21wdC5nY3YubmFtZSlEcml2ZXIgTmFtZSIgZHJpdmVyLW5hbWU9InRydWUiIG1hbmRhdG9yeT0idHJ1ZSIgbmFtZT0ibmFtZSIgdHlwZT0ic3RyaW5nIiBpZD0iNDMyIj48ZGVzY3JpcHRpb24+eGxmaWQoTk9WTE5VTExCQVNFLmlkbXJlc291cmNlLk5PVkxOVUxMQkFTRURyaXZlck5hbWVQcm9tcHQuZ2N2LmRzY3IubmFtZSlFbnRlciB0aGUgZHJpdmVyIG5hbWUuPC9kZXNjcmlwdGlvbj48dmFsdWU+R2VuZXJpYyBOdWxsPC92YWx1ZT48L2RlZmluaXRpb24+PC9kZWZpbml0aW9ucz48L2NvbmZpZ3VyYXRpb24tdmFsdWVzPg=="
+    } ]
+  },
+  "driverFeaturedPackage" : [ ],
+  "driverDependentPackage" : [ ],
+  "driverMandatoryPackage" : [ ],
+  "IdentityVaultId" : null,
+  "commonSettings" : [ ]
+}

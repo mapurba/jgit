@@ -1,0 +1,71 @@
+{
+  "driverRecipeId" : "JMS Driver",
+  "driverRecipeName" : "JMS Driver",
+  "driverBasePackage" : {
+    "packageId" : "FRWZD9AW_201007021001410812",
+    "packageName" : "JMS Base",
+    "packageVersion" : "2.1.1.20171130124024",
+    "packageShortName" : "NOVLJMSBASE",
+    "driverInputPrompts" : [ {
+      "key" : "name",
+      "name" : "Driver Name",
+      "value" : "JMS Driver",
+      "prompt" : "NOVLJMSBASE-DriverNamePrompt",
+      "type" : "string"
+    }, {
+      "key" : "use-remote-loader",
+      "name" : "Connect To Remote Loader:",
+      "value" : "false",
+      "prompt" : "NOVLJMSBASE-RemoteLoaderPrompts",
+      "type" : "enum; Format (yes->true|no->false)"
+    }, {
+      "key" : "rl-hostname",
+      "name" : "Host Name:",
+      "value" : "",
+      "prompt" : "NOVLJMSBASE-RemoteLoaderPrompts",
+      "type" : "string"
+    }, {
+      "key" : "rl-port",
+      "name" : "Port:",
+      "value" : "8090",
+      "prompt" : "NOVLJMSBASE-RemoteLoaderPrompts",
+      "type" : "integer"
+    }, {
+      "key" : "rl-kmo",
+      "name" : "KMO:",
+      "value" : "",
+      "prompt" : "NOVLJMSBASE-RemoteLoaderPrompts",
+      "type" : "string"
+    }, {
+      "key" : "rl-other",
+      "name" : "Other parameters:",
+      "value" : "",
+      "prompt" : "NOVLJMSBASE-RemoteLoaderPrompts",
+      "type" : "string"
+    }, {
+      "key" : "rl-password",
+      "name" : "Remote Password:",
+      "value" : "rl-password",
+      "prompt" : "NOVLJMSBASE-RemoteLoaderPrompts",
+      "type" : "password-ref"
+    }, {
+      "key" : "driver-password",
+      "name" : "Driver Password:",
+      "value" : "driver-password",
+      "prompt" : "NOVLJMSBASE-RemoteLoaderPrompts",
+      "type" : "password-ref"
+    } ],
+    "driverInputPromptsXML" : [ {
+      "dsObjectName" : "NOVLJMSBASE-DriverNamePrompt",
+      "confValues" : "PGNvbmZpZ3VyYXRpb24tdmFsdWVzPjxkZWZpbml0aW9ucz48aGVhZGVyIGRpc3BsYXktbmFtZT0ieGxmaWQoTk9WTEpNU0JBU0UuaWRtcmVzb3VyY2UuTk9WTEpNU0JBU0VEcml2ZXJOYW1lUHJvbXB0Lmdjdi5oZWFkZXIuRHJpdmVySW5mb3JtYXRpb24pRHJpdmVyIEluZm9ybWF0aW9uIiBkcml2ZXItbmFtZT0idHJ1ZSIgaWQ9IjQxNzYwIi8+PGRlZmluaXRpb24gZGlzcGxheS1uYW1lPSJ4bGZpZChOT1ZMSk1TQkFTRS5pZG1yZXNvdXJjZS5OT1ZMSk1TQkFTRURyaXZlck5hbWVQcm9tcHQuZ2N2Lm5hbWUpRHJpdmVyIE5hbWUiIGRyaXZlci1uYW1lPSJ0cnVlIiBtYW5kYXRvcnk9InRydWUiIG5hbWU9Im5hbWUiIHR5cGU9InN0cmluZyIgaWQ9IjQxNzYxIj48ZGVzY3JpcHRpb24+eGxmaWQoTk9WTEpNU0JBU0UuaWRtcmVzb3VyY2UuTk9WTEpNU0JBU0VEcml2ZXJOYW1lUHJvbXB0Lmdjdi5kc2NyLm5hbWUpRW50ZXIgdGhlIGRyaXZlciBuYW1lLjwvZGVzY3JpcHRpb24+PHZhbHVlPkpNUyBEcml2ZXI8L3ZhbHVlPjwvZGVmaW5pdGlvbj48L2RlZmluaXRpb25zPjwvY29uZmlndXJhdGlvbi12YWx1ZXM+"
+    }, {
+      "dsObjectName" : "NOVLJMSBASE-RemoteLoaderPrompts",
+      "confValues" : "PGNvbmZpZ3VyYXRpb24tdmFsdWVzPjxkZWZpbml0aW9ucz48aGVhZGVyIGRpc3BsYXktbmFtZT0ieGxmaWQoTk9WTEpNU0JBU0UuaWRtcmVzb3VyY2UuTk9WTEpNU0JBU0VSZW1vdGVMb2FkZXJQcm9tcHRzLmdjdi5oZWFkZXIuUmVtb3RlTG9hZGVyKVJlbW90ZSBMb2FkZXIiIGlkPSI0MTc3OCIvPjxncm91cD48ZGVmaW5pdGlvbiBkaXNwbGF5LW5hbWU9InhsZmlkKE5PVkxKTVNCQVNFLmlkbXJlc291cmNlLk5PVkxKTVNCQVNFUmVtb3RlTG9hZGVyUHJvbXB0cy5nY3YudXNlLXJlbW90ZS1sb2FkZXIpQ29ubmVjdCBUbyBSZW1vdGUgTG9hZGVyOiIgbmFtZT0idXNlLXJlbW90ZS1sb2FkZXIiIHR5cGU9ImVudW0iIGlkPSI0MTc3OSI+PGRlc2NyaXB0aW9uLz48dmFsdWU+ZmFsc2U8L3ZhbHVlPjxlbnVtLWNob2ljZSBkaXNwbGF5LW5hbWU9InhsZmlkKE5PVkxKTVNCQVNFLmlkbXJlc291cmNlLk5PVkxKTVNCQVNFUmVtb3RlTG9hZGVyUHJvbXB0cy5nY3YuY2hvaWNlLnVzZS1yZW1vdGUtbG9hZGVyLnllcyl5ZXMiPnRydWU8L2VudW0tY2hvaWNlPjxlbnVtLWNob2ljZSBkaXNwbGF5LW5hbWU9InhsZmlkKE5PVkxKTVNCQVNFLmlkbXJlc291cmNlLk5PVkxKTVNCQVNFUmVtb3RlTG9hZGVyUHJvbXB0cy5nY3YuY2hvaWNlLnVzZS1yZW1vdGUtbG9hZGVyLm5vKW5vIj5mYWxzZTwvZW51bS1jaG9pY2U+PC9kZWZpbml0aW9uPjxzdWJvcmRpbmF0ZXMgYWN0aXZlLXZhbHVlPSJ0cnVlIj48ZGVmaW5pdGlvbiBkaXNwbGF5LW5hbWU9InhsZmlkKE5PVkxKTVNCQVNFLmlkbXJlc291cmNlLk5PVkxKTVNCQVNFUmVtb3RlTG9hZGVyUHJvbXB0cy5nY3YucmwtaG9zdG5hbWUpSG9zdCBOYW1lOiIgbmFtZT0icmwtaG9zdG5hbWUiIHR5cGU9InN0cmluZyIgaWQ9IjQxNzgwIj48ZGVzY3JpcHRpb24+eGxmaWQoTk9WTEpNU0JBU0UuaWRtcmVzb3VyY2UuTk9WTEpNU0JBU0VSZW1vdGVMb2FkZXJQcm9tcHRzLmdjdi5kc2NyLnJsLWhvc3RuYW1lKUVudGVyIHRoZSBIb3N0IE5hbWUgb3IgSVAgQWRkcmVzcyB3aGVyZSB0aGUgUmVtb3RlIExvYWRlciBTZXJ2aWNlIGhhcyBiZWVuIGluc3RhbGxlZCBhbmQgaXMgcnVubmluZyBmb3IgdGhpcyBkcml2ZXIuIFtIb3N0IE5hbWUgb3IgSVAgQWRkcmVzczsgIyMjLiMjIy4jIyMuIyMjXTwvZGVzY3JpcHRpb24+PHZhbHVlLz48L2RlZmluaXRpb24+PGRlZmluaXRpb24gZGlzcGxheS1uYW1lPSJ4bGZpZChOT1ZMSk1TQkFTRS5pZG1yZXNvdXJjZS5OT1ZMSk1TQkFTRVJlbW90ZUxvYWRlclByb21wdHMuZ2N2LnJsLXBvcnQpUG9ydDoiIG5hbWU9InJsLXBvcnQiIHJhbmdlLWhpPSIiIHJhbmdlLWxvPSIiIHR5cGU9ImludGVnZXIiIGlkPSI0MTc4MSI+PGRlc2NyaXB0aW9uPnhsZmlkKE5PVkxKTVNCQVNFLmlkbXJlc291cmNlLk5PVkxKTVNCQVNFUmVtb3RlTG9hZGVyUHJvbXB0cy5nY3YuZHNjci5ybC1wb3J0KUVudGVyIHRoZSBQb3J0IE51bWJlciB3aGVyZSB0aGUgUmVtb3RlIExvYWRlciBTZXJ2aWNlIGhhcyBiZWVuIGluc3RhbGxlZCBhbmQgaXMgcnVubmluZyBmb3IgdGhpcyBkcml2ZXIuIFRoZSBEZWZhdWx0IFBvcnQgaXMgODA5MC48L2Rlc2NyaXB0aW9uPjx2YWx1ZT44MDkwPC92YWx1ZT48L2RlZmluaXRpb24+PGRlZmluaXRpb24gZGlzcGxheS1uYW1lPSJ4bGZpZChOT1ZMSk1TQkFTRS5pZG1yZXNvdXJjZS5OT1ZMSk1TQkFTRVJlbW90ZUxvYWRlclByb21wdHMuZ2N2LnJsLWttbylLTU86IiBuYW1lPSJybC1rbW8iIHR5cGU9InN0cmluZyIgaWQ9IjQxNzgyIj48ZGVzY3JpcHRpb24+eGxmaWQoTk9WTEpNU0JBU0UuaWRtcmVzb3VyY2UuTk9WTEpNU0JBU0VSZW1vdGVMb2FkZXJQcm9tcHRzLmdjdi5kc2NyLnJsLWttbylFbnRlciB0aGUgS2V5IE5hbWUgb2YgdGhlIEtleSBNYXRlcmlhbCBPYmplY3QgY29udGFpbmluZyB0aGUga2V5cyBhbmQgY2VydGlmaWNhdGUgdXNlZCBmb3IgU1NMLiBUaGUgJ0tNTycgcGFyYW1ldGVyIGlzIHVzZWQgb25seSB3aGVuIGFuIFNTTCBjb25uZWN0aW9uIGV4aXN0cyBiZXR3ZWVuIHRoZSBSZW1vdGUgTG9hZGVyIGFuZCB0aGUgTWV0YWRpcmVjdG9yeSBlbmdpbmUuPC9kZXNjcmlwdGlvbj48dmFsdWUvPjwvZGVmaW5pdGlvbj48ZGVmaW5pdGlvbiBkaXNwbGF5LW5hbWU9InhsZmlkKE5PVkxKTVNCQVNFLmlkbXJlc291cmNlLk5PVkxKTVNCQVNFUmVtb3RlTG9hZGVyUHJvbXB0cy5nY3Yucmwtb3RoZXIpT3RoZXIgcGFyYW1ldGVyczoiIG5hbWU9InJsLW90aGVyIiB0eXBlPSJzdHJpbmciIGlkPSI0MTc4MyI+PGRlc2NyaXB0aW9uPnhsZmlkKE5PVkxKTVNCQVNFLmlkbXJlc291cmNlLk5PVkxKTVNCQVNFUmVtb3RlTG9hZGVyUHJvbXB0cy5nY3YuZHNjci5ybC1vdGhlcilFbnRlciBvdGhlciBwYXJhbWV0ZXJzIHJlcXVpcmVkLCBpZiBhbnksIGluIHRoZSBjb25uZWN0aW9uIHN0cmluZy4gVGhlc2UgcGFyYW1ldGVycyBNVVNUIGJlIGluIHRoZSBrZXktdmFsdWUgcGFpciBlLmcuIHBhcmFOYW1lMT1wYXJhVmFsdWUxIHBhcmFOYW1lMj1wYXJhVmFsdWUyPC9kZXNjcmlwdGlvbj48dmFsdWUvPjwvZGVmaW5pdGlvbj48ZGVmaW5pdGlvbiBkaXNwbGF5LW5hbWU9InhsZmlkKE5PVkxKTVNCQVNFLmlkbXJlc291cmNlLk5PVkxKTVNCQVNFUmVtb3RlTG9hZGVyUHJvbXB0cy5nY3YucmwtcGFzc3dvcmQpUmVtb3RlIFBhc3N3b3JkOiIgbmFtZT0icmwtcGFzc3dvcmQiIHR5cGU9InBhc3N3b3JkLXJlZiIgaWQ9IjQxNzg0Ij48ZGVzY3JpcHRpb24+eGxmaWQoTk9WTEpNU0JBU0UuaWRtcmVzb3VyY2UuTk9WTEpNU0JBU0VSZW1vdGVMb2FkZXJQcm9tcHRzLmdjdi5kc2NyLnJsLXBhc3N3b3JkKVRoZSBSZW1vdGUgTG9hZGVyIHBhc3N3b3JkIGlzIHVzZWQgdG8gY29udHJvbCBhY2Nlc3MgdG8gdGhlIFJlbW90ZSBMb2FkZXIgaW5zdGFuY2UuICBJdCBtdXN0IGJlIHRoZSBzYW1lIHBhc3N3b3JkIHRoYXQgaXMgc3BlY2lmaWVkIGFzIHRoZSBSZW1vdGUgTG9hZGVyIHBhc3N3b3JkIG9uIHRoZSBJZGVudGl0eSBNYW5hZ2VyIFJlbW90ZSBMb2FkZXIuPC9kZXNjcmlwdGlvbj48dmFsdWU+cmwtcGFzc3dvcmQ8L3ZhbHVlPjwvZGVmaW5pdGlvbj48ZGVmaW5pdGlvbiBkaXNwbGF5LW5hbWU9InhsZmlkKE5PVkxKTVNCQVNFLmlkbXJlc291cmNlLk5PVkxKTVNCQVNFUmVtb3RlTG9hZGVyUHJvbXB0cy5nY3YuZHJpdmVyLXBhc3N3b3JkKURyaXZlciBQYXNzd29yZDoiIG5hbWU9ImRyaXZlci1wYXNzd29yZCIgdHlwZT0icGFzc3dvcmQtcmVmIiBpZD0iNDE3ODUiPjxkZXNjcmlwdGlvbj54bGZpZChOT1ZMSk1TQkFTRS5pZG1yZXNvdXJjZS5OT1ZMSk1TQkFTRVJlbW90ZUxvYWRlclByb21wdHMuZ2N2LmRzY3IuZHJpdmVyLXBhc3N3b3JkKVRoZSBEcml2ZXIgT2JqZWN0IFBhc3N3b3JkIGlzIHVzZWQgYnkgdGhlIFJlbW90ZSBMb2FkZXIgdG8gYXV0aGVudGljYXRlIGl0c2VsZiB0byB0aGUgSWRlbnRpdHkgTWFuYWdlciBzZXJ2ZXIuICBJdCBtdXN0IGJlIHRoZSBzYW1lIHBhc3N3b3JkIHRoYXQgaXMgc3BlY2lmaWVkIGFzIHRoZSBEcml2ZXIgT2JqZWN0IFBhc3N3b3JkIG9uIHRoZSBJZGVudGl0eSBNYW5hZ2VyIFJlbW90ZSBMb2FkZXIuPC9kZXNjcmlwdGlvbj48dmFsdWU+ZHJpdmVyLXBhc3N3b3JkPC92YWx1ZT48L2RlZmluaXRpb24+PC9zdWJvcmRpbmF0ZXM+PC9ncm91cD48L2RlZmluaXRpb25zPjwvY29uZmlndXJhdGlvbi12YWx1ZXM+"
+    } ]
+  },
+  "driverFeaturedPackage" : [ ],
+  "driverDependentPackage" : [ ],
+  "driverMandatoryPackage" : [ ],
+  "IdentityVaultId" : null,
+  "commonSettings" : [ ]
+}

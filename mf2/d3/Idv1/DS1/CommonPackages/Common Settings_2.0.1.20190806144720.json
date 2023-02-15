@@ -1,0 +1,23 @@
+{
+  "packageId" : "4YGKJX0U_201006021536040516",
+  "packageName" : "Common Settings",
+  "packageVersion" : "2.0.1.20190806144720",
+  "packageShortName" : "NOVLCOMSET",
+  "driverInputPrompts" : [ {
+    "key" : "idv.dit.data.users",
+    "name" : "User Container",
+    "value" : "data\\users",
+    "prompt" : "NOVLCOMSET-Prompts",
+    "type" : "dn"
+  }, {
+    "key" : "idv.dit.data.groups",
+    "name" : "Group Container",
+    "value" : "data\\groups",
+    "prompt" : "NOVLCOMSET-Prompts",
+    "type" : "dn"
+  } ],
+  "driverInputPromptsXML" : [ {
+    "dsObjectName" : "NOVLCOMSET-Prompts",
+    "confValues" : "PGNvbmZpZ3VyYXRpb24tdmFsdWVzPjxkZWZpbml0aW9ucz48aGVhZGVyIGRpc3BsYXktbmFtZT0ieGxmaWQoTk9WTENPTVNFVC5pZG1yZXNvdXJjZS5OT1ZMQ09NU0VUUHJvbXB0cy5nY3YuaGVhZGVyLkNvbW1vblNldHRpbmdzKUNvbW1vbiBTZXR0aW5ncyIgaWQ9IjI3Njg1Ii8+PGRlZmluaXRpb24gZGlzcGxheS1uYW1lPSJ4bGZpZChOT1ZMQ09NU0VULmlkbXJlc291cmNlLk5PVkxDT01TRVRQcm9tcHRzLmdjdi5pZHYuZGl0LmRhdGEudXNlcnMpVXNlciBDb250YWluZXIiIGRuLXNwYWNlPSJkaXJ4bWwiIGRuLXR5cGU9InNsYXNoIiBuYW1lPSJpZHYuZGl0LmRhdGEudXNlcnMiIHR5cGU9ImRuIiBpZD0iMjc2ODYiPjxkZXNjcmlwdGlvbj54bGZpZChOT1ZMQ09NU0VULmlkbXJlc291cmNlLk5PVkxDT01TRVRQcm9tcHRzLmdjdi5kc2NyLmlkdi5kaXQuZGF0YS51c2VycylUaGlzIEdDViBpcyB1c2VkIHRvIGdldCBhIHJlZmVyZW5jZSB0byB0aGUgY29udGFpbmVyIHdoZXJlIHVzZXJzIGFyZSBzdG9yZWQuIFRoaXMgdmFsdWUgaXMgdXNlZCBmb3IgYWxsIGRyaXZlcnMuIElmIHlvdSB3YW50IHNlcGFyYXRlIGNvbnRhaW5lcnMgZm9yIGVhY2ggZHJpdmVyLCB1c2UgdGhlIEdDViBvbiB0aGUgRHJpdmVyIE9iamVjdC5UaGUgRE4gaXMgZXhwZWN0ZWQgaW4gc2xhc2gtZm9ybWF0LjwvZGVzY3JpcHRpb24+PHZhbHVlPmRhdGFcdXNlcnM8L3ZhbHVlPjwvZGVmaW5pdGlvbj48ZGVmaW5pdGlvbiBkaXNwbGF5LW5hbWU9InhsZmlkKE5PVkxDT01TRVQuaWRtcmVzb3VyY2UuTk9WTENPTVNFVFByb21wdHMuZ2N2Lmlkdi5kaXQuZGF0YS5ncm91cHMpR3JvdXAgQ29udGFpbmVyIiBkbi1zcGFjZT0iZGlyeG1sIiBkbi10eXBlPSJzbGFzaCIgbmFtZT0iaWR2LmRpdC5kYXRhLmdyb3VwcyIgdHlwZT0iZG4iIGlkPSIyNzY4NyI+PGRlc2NyaXB0aW9uPnhsZmlkKE5PVkxDT01TRVQuaWRtcmVzb3VyY2UuTk9WTENPTVNFVFByb21wdHMuZ2N2LmRzY3IuaWR2LmRpdC5kYXRhLmdyb3VwcylUaGlzIEdDViBpcyB1c2VkIHRvIGdldCBhIHJlZmVyZW5jZSB0byB0aGUgY29udGFpbmVyIHdoZXJlIGdyb3VwcyBhcmUgc3RvcmVkLiBUaGlzIHZhbHVlIGlzIHVzZWQgZm9yIGFsbCBkcml2ZXJzLiBJZiB5b3Ugd2FudCBzZXBhcmF0ZSBjb250YWluZXJzIGZvciBlYWNoIGRyaXZlciwgdXNlIHRoZSBHQ1Ygb24gdGhlIERyaXZlciBPYmplY3QuVGhlIEROIGlzIGV4cGVjdGVkIGluIHNsYXNoLWZvcm1hdC48L2Rlc2NyaXB0aW9uPjx2YWx1ZT5kYXRhXGdyb3VwczwvdmFsdWU+PC9kZWZpbml0aW9uPjwvZGVmaW5pdGlvbnM+PC9jb25maWd1cmF0aW9uLXZhbHVlcz4="
+  } ]
+}

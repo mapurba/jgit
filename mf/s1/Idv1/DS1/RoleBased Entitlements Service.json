@@ -1,0 +1,26 @@
+{
+  "driverRecipeId" : "RoleBased Entitlements Service",
+  "driverRecipeName" : "RoleBased Entitlements Service",
+  "driverBasePackage" : {
+    "packageId" : "BXWLPW8R_201006111503080812",
+    "packageName" : "Role-Based Entitlements (RBE) Base",
+    "packageVersion" : "2.0.0.20120510190715",
+    "packageShortName" : "NOVLRBEBASE",
+    "driverInputPrompts" : [ {
+      "key" : "name",
+      "name" : "Driver Name",
+      "value" : "RoleBased Entitlements Service",
+      "prompt" : "NOVLRBEBASE-DriverNamePrompt",
+      "type" : "string"
+    } ],
+    "driverInputPromptsXML" : [ {
+      "dsObjectName" : "NOVLRBEBASE-DriverNamePrompt",
+      "confValues" : "PGNvbmZpZ3VyYXRpb24tdmFsdWVzPjxkZWZpbml0aW9ucz48ZGVmaW5pdGlvbiBkaXNwbGF5LW5hbWU9InhsZmlkKE5PVkxSQkVCQVNFLmlkbXJlc291cmNlLk5PVkxSQkVCQVNFRHJpdmVyTmFtZVByb21wdC5nY3YubmFtZSlEcml2ZXIgTmFtZSIgZHJpdmVyLW5hbWU9InRydWUiIG1hbmRhdG9yeT0idHJ1ZSIgbmFtZT0ibmFtZSIgdHlwZT0ic3RyaW5nIiBpZD0iMzcwNzciPjxkZXNjcmlwdGlvbj54bGZpZChOT1ZMUkJFQkFTRS5pZG1yZXNvdXJjZS5OT1ZMUkJFQkFTRURyaXZlck5hbWVQcm9tcHQuZ2N2LmRzY3IubmFtZSlFbnRlciB0aGUgZHJpdmVyIG5hbWUuPC9kZXNjcmlwdGlvbj48dmFsdWU+Um9sZUJhc2VkIEVudGl0bGVtZW50cyBTZXJ2aWNlPC92YWx1ZT48L2RlZmluaXRpb24+PC9kZWZpbml0aW9ucz48L2NvbmZpZ3VyYXRpb24tdmFsdWVzPg=="
+    } ]
+  },
+  "driverFeaturedPackage" : [ ],
+  "driverDependentPackage" : [ ],
+  "driverMandatoryPackage" : [ ],
+  "IdentityVaultId" : null,
+  "commonSettings" : [ ]
+}

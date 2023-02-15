@@ -1,0 +1,32 @@
+{
+  "packageId" : "9VMR2GM8_201309101410450593",
+  "packageName" : "Common Settings Advanced Edition",
+  "packageVersion" : "2.1.3.20190806143104",
+  "packageShortName" : "NOVLACOMSET",
+  "driverInputPrompts" : [ {
+    "key" : "UAProvURL",
+    "name" : "User Application Provisioning Services URL",
+    "value" : "http://localhost:8180/IDMProv",
+    "prompt" : "NOVLACOMSET-GCVs-Prompt",
+    "type" : "string"
+  }, {
+    "key" : "UAProvAdmin",
+    "name" : "User Application Administrator Account",
+    "value" : "CN=uaadmin.OU=sa.O=data",
+    "prompt" : "NOVLACOMSET-GCVs-Prompt",
+    "type" : "dn"
+  }, {
+    "key" : "service-account-dn",
+    "name" : "User Application Provisioning Service Account DN",
+    "value" : "",
+    "prompt" : "NOVLACOMSET-GCVs-Prompt",
+    "type" : "dn"
+  } ],
+  "driverInputPromptsXML" : [ {
+    "dsObjectName" : "NOVLACOMSET-GCVs-Prompt",
+    "confValues" : "PGNvbmZpZ3VyYXRpb24tdmFsdWVzPjxkZWZpbml0aW9ucz48aGVhZGVyIGRpc3BsYXktbmFtZT0ieGxmaWQoTk9WTEFDT01TRVQuaWRtcmVzb3VyY2UuTk9WTEFDT01TRVRHQ1ZzUHJvbXB0Lmdjdi5oZWFkZXIuQ29tbW9uU2V0dGluZ3NBZHZhbmNlZEVkaXRpb24pQ29tbW9uIFNldHRpbmdzIEFkdmFuY2VkIEVkaXRpb24iIGlkPSI3ODA0Ii8+PGRlZmluaXRpb24gZGlzcGxheS1uYW1lPSJ4bGZpZChOT1ZMQUNPTVNFVC5pZG1yZXNvdXJjZS5OT1ZMQUNPTVNFVEdDVnNQcm9tcHQuZ2N2LlVBUHJvdlVSTClVc2VyIEFwcGxpY2F0aW9uIFByb3Zpc2lvbmluZyBTZXJ2aWNlcyBVUkwiIGRuLXNwYWNlPSJkaXJ4bWwiIGRuLXR5cGU9InNsYXNoIiBuYW1lPSJVQVByb3ZVUkwiIHR5cGU9InN0cmluZyIgaWQ9Ijc4MDUiPjx2YWx1ZT5odHRwOi8vbG9jYWxob3N0OjgxODAvSURNUHJvdjwvdmFsdWU+PC9kZWZpbml0aW9uPjxkZWZpbml0aW9uIGRpc3BsYXktbmFtZT0ieGxmaWQoTk9WTEFDT01TRVQuaWRtcmVzb3VyY2UuTk9WTEFDT01TRVRHQ1ZzUHJvbXB0Lmdjdi5VQVByb3ZBZG1pbilVc2VyIEFwcGxpY2F0aW9uIEFkbWluaXN0cmF0b3IgQWNjb3VudCIgZG4tc3BhY2U9ImRpcnhtbCIgZG4tdHlwZT0icXVhbGlmaWVkLWRvdCIgbmFtZT0iVUFQcm92QWRtaW4iIHR5cGU9ImRuIiBpZD0iNzgwNiI+PHZhbHVlPkNOPXVhYWRtaW4uT1U9c2EuTz1kYXRhPC92YWx1ZT48ZGVzY3JpcHRpb24vPjwvZGVmaW5pdGlvbj48ZGVmaW5pdGlvbiBkaXNwbGF5LW5hbWU9InhsZmlkKE5PVkxBQ09NU0VULmlkbXJlc291cmNlLk5PVkxBQ09NU0VUR0NWc1Byb21wdC5nY3Yuc2VydmljZS1hY2NvdW50LWRuKVVzZXIgQXBwbGljYXRpb24gUHJvdmlzaW9uaW5nIFNlcnZpY2UgQWNjb3VudCBETiIgZG4tc3BhY2U9ImRpcnhtbCIgZG4tdHlwZT0ibGRhcCIgaWQ9Ijc4MDciIG5hbWU9InNlcnZpY2UtYWNjb3VudC1kbiIgdHlwZT0iZG4iPjxkZXNjcmlwdGlvbj54bGZpZChOT1ZMQUNPTVNFVC5pZG1yZXNvdXJjZS5OT1ZMQUNPTVNFVEdDVnNQcm9tcHQuZ2N2LmRzY3Iuc2VydmljZS1hY2NvdW50LWRuKUlmIGEgUm9sZSBvciBSZXNvdXJjZSBwcm92aXNpb25pbmcgcmVxdWVzdCBpcyBpbml0aWF0ZWQgYnkgdGhpcyBzZXJ2aWNlIGFjY291bnQsIHRoZW4gYW55IGFwcHJvdmFscyBvciBwcm92aXNpb25pbmcgd29ya2Zsb3dzIGFzc29jaWF0ZWQgd2l0aCB0aGlzIHJvbGUgb3IgcmVzb3VyY2UgYXJlIGJ5cGFzc2VkLjwvZGVzY3JpcHRpb24+PHZhbHVlLz48L2RlZmluaXRpb24+PC9kZWZpbml0aW9ucz48L2NvbmZpZ3VyYXRpb24tdmFsdWVzPg=="
+  }, {
+    "dsObjectName" : "NOVLACOMSET-UpgradeSettings",
+    "confValues" : "PGNvbmZpZ3VyYXRpb24tdmFsdWVzPjxkZWZpbml0aW9ucy8+PC9jb25maWd1cmF0aW9uLXZhbHVlcz4="
+  } ]
+}
