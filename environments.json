@@ -1,7 +1,7 @@
 {
   "environment" : [ {
     "name" : "Google cloud",
-    "description" : "Google cloud",
+    "description" : "Google cloud test",
     "id" : "gcp",
     "noOfStages" : 1,
     "stages" : [ {
