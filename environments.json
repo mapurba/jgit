@@ -89,7 +89,7 @@
       "stageId" : "s1"
     }, {
       "stageName" : "Pre-Prod",
-      "description" : null,
+      "description" : "jello",
       "idVaults" : [ {
         "identityVaultId" : "1",
         "identityVaultName" : "Idv1",
